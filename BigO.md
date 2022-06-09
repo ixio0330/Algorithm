@@ -177,11 +177,13 @@ function logAtLeast5(n) {
 ```
 
 4. O(1)
-   function logAtMost5(n) {
-   for (let i = 0; i <= Math.min(5, n); i++) {
-   console.log(i);
-   }
-   }
+```
+function logAtMost5(n) {
+  for (let i = 0; i <= Math.min(5, n); i++) {
+    console.log(i);
+  }
+}
+```
 
 ### 공간복잡도 (메모리)
 
